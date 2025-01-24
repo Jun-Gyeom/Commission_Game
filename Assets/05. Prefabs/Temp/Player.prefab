@@ -267,4 +267,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   <MoveSpeed>k__BackingField: 5
-  <DetectedCharacters>k__BackingField: []
