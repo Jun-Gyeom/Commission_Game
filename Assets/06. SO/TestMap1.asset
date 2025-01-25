@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d35f9e115685e6445ac9503b0c0af513, type: 3}
   m_Name: TestMap1
   m_EditorClassIdentifier: 
-  mapName: "\uD14C\uC2A4\uD2B8 \uB9F5 1"
+  mapName: Test map 1
   mapSize: 0
+  mapSceneName: Test Map Scene 1

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class SelectCharacterOption : MonoBehaviour
 {
-    public CharacterData CharacterData { get; set; }                                // 캐릭터 데이터 
+    public PlayableCharacterData CharacterData { get; set; }                        // 캐릭터 데이터 
     public bool IsSelected { get; private set; }                                    // 선택되었는지 여부 
     
     [field: Header("Components")]

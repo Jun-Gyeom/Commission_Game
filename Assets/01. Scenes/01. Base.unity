@@ -1926,11 +1926,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <CharacterDatas>k__BackingField:
   - {fileID: 11400000, guid: eca41b2dbb92e924bae636904ed77230, type: 2}
+  - {fileID: 11400000, guid: b53c0823a847ebd4b9cc45f01936839a, type: 2}
   <MapDatas>k__BackingField:
   - {fileID: 11400000, guid: 88d322319cf8bd042bdc4704ac96d6fd, type: 2}
+  - {fileID: 11400000, guid: a3c73ba9d8a70eb4fb62c9df266f4154, type: 2}
   <SelectedCharacter>k__BackingField: {fileID: 0}
   <SelectedMap>k__BackingField: {fileID: 0}
+  <ChangeSceneFadeInDuration>k__BackingField: 2
+  <ChangeSceneFadeOutDuration>k__BackingField: 2
   <CurrentSceneName>k__BackingField: 
+  <CurrentMapSceneName>k__BackingField: 
   _initialSceneName: 02. Main
 --- !u!4 &2045031431
 Transform:

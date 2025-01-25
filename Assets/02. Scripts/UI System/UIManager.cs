@@ -64,6 +64,18 @@ public class UIManager : Singleton<UIManager>
             _uiViewStack.Peek().Show();
     }
 
+    public void CloseAllUIView()
+    {
+        for (int i = 0; i < _uiViewStack.Count; i++)
+        {
+            // 최상단 UI View 숨기기 
+            _uiViewStack.Peek().Hide();
+
+            // 최상단 UI View 스택에서 제거 
+            _uiViewStack.Pop();
+        }
+    }
+
     public void FadeIn(float duration, Action action)
     {
         IsFading = true;

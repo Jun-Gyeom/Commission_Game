@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af93937e6dbd18f43a48f87a9301d67b, type: 3}
   m_Name: TestPlayableCharacter2
   m_EditorClassIdentifier: 
-  characterName: 
-  playableCharacterPrefab: {fileID: 0}
-  characterIcon: {fileID: 0}
+  characterName: Temp Playerable Character 2
+  playableCharacterPrefab: {fileID: 4694443152038637493, guid: b3705fda8ee0cd342a6706a3f469bff1, type: 3}
+  characterIcon: {fileID: 21300000, guid: 5152efec88954df3a61fb62f8204412a, type: 3}

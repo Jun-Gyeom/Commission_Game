@@ -22,11 +22,11 @@ public class SelectUI : UIView
     protected override void Awake()
     {
         base.Awake();
-        
-        //_selectCharacterAndMapButton.onClick.AddListener(() =>
-        //{
-            // TODO - 캐릭터, 맵 선택 후 게임 시작 로직 작성 
-        //});
+
+        _selectCharacterAndMapButton.onClick.AddListener(() =>
+        {
+            GameManager.Instance.StartGame();
+        });
     }
 
     public override void Init()
