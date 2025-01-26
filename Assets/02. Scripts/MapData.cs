@@ -13,6 +13,7 @@ public enum MapSize
 public class MapData : ScriptableObject
 {
     public string mapName;
+    public Sprite mapIcon; 
     public MapSize mapSize;
     public string mapSceneName; // 맵이 구현된 씬의 이름  
 }

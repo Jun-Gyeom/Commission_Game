@@ -49,7 +49,8 @@ public class SelectUI : UIView
             GameObject selectCharacterOptionGameObject = Instantiate(_selectCharacterOptionPrefab, _characterContentTransform);
             selectCharacterOptionGameObject.TryGetComponent(out SelectCharacterOption selectCharacterOption);
             selectCharacterOption.CharacterData = characterData;
-            // TODO: 캐릭터 아이콘 및 이름 표시 
+            selectCharacterOption.CharacterIconImage.sprite = characterData.characterIcon;
+            selectCharacterOption.CharacterNameText.text = characterData.characterName;
             selectCharacterOption.SelectButton.onClick.AddListener(() => SetSelectedCharacterOption(selectCharacterOption));
             _selectCharacterOptions.Add(selectCharacterOption);
         }
@@ -64,8 +65,9 @@ public class SelectUI : UIView
         {
             GameObject selectMapOptionGameObject = Instantiate(_selectMapOptionPrefab, _mapContentTransform);
             selectMapOptionGameObject.TryGetComponent(out SelectMapOption selectMapOption);
-            selectMapOption.MapData = mapData;
-            // TODO: 맵 아이콘 및 이름 표시 
+            selectMapOption.MapData = mapData; 
+            selectMapOption.MapIconImage.sprite = mapData.mapIcon;
+            selectMapOption.MapNameText.text = mapData.mapName;
             selectMapOption.SelectButton.onClick.AddListener(() => SetSelectedMapOption(selectMapOption));
             _selectMapOptions.Add(selectMapOption);
         }

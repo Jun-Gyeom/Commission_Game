@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: TestMap1
   m_EditorClassIdentifier: 
   mapName: Test map 1
+  mapIcon: {fileID: 21300000, guid: 4c303b1d350c4dcfba1da98a2b0b9a66, type: 3}
   mapSize: 0
   mapSceneName: Test Map Scene 1
